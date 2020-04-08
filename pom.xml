@@ -28,11 +28,16 @@
       <url>file:///tmp/maven-project-site</url>
     </site>
   
-  <snapshotRepository>
-   <id>nexus</id>
-   <name>sample-snapshot</name>
-   <url>http://34.68.8.94:8081/repository/sample-snapshot/</url>
-  </snapshotRepository>       
+  <repository>
+            <id>deployment</id>
+            <name>Internal Releases</name>
+            <url>http://34.68.8.94:8081/repository/sample-release/</url>
+        </repository>
+        <snapshotRepository>
+            <id>deployment</id>
+            <name>Internal Snapshot Releases</name>
+            <url>http://34.68.8.94:8081/repository/sample-snapshot/</url>
+        </snapshotRepository>   
            
     
   </distributionManagement>
