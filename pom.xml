@@ -27,6 +27,17 @@
       <name>Test Project Site</name>
       <url>file:///tmp/maven-project-site</url>
     </site>
+    <repository>
+   <id>nexus</id>
+   <name>maven-releases</name>
+   <url>http://qa4.kpisoft.com:8081/repository/maven-releases/</url>
+  </repository>
+  <snapshotRepository>
+   <id>nexus</id>
+   <name>sample-snapshot</name>
+   <url>http://34.68.8.94:8081/repository/sample-snapshot/</url>
+  </snapshotRepository>       
+           
     
   </distributionManagement>
 
