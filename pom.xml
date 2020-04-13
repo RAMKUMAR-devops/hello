@@ -28,16 +28,16 @@
       <url>file:///tmp/maven-project-site</url>
     </site>
   
-  <repository>
-            <id>deployment</id>
-            <name>Internal Releases</name>
-            <url>http://34.68.8.94:8081/repository/sample-release/</url>
-        </repository>
-        <snapshotRepository>
-            <id>deployment</id>
-            <name>Internal Snapshot Releases</name>
-            <url>http://34.66.37.216:8081/repository/sample-snapshot/</url>
-        </snapshotRepository>   
+ <repository>
+        <id>central</id>
+        <name>jfrog-releases</name>
+        <url>http://35.188.185.28:8081/artifactory/libs-release</url>
+    </repository>
+         <snapshotRepository>
+        <id>snapshots</id>
+        <name>jfrog-snapshots</name>
+        <url>http://35.188.185.28:8081/artifactory/libs-snapshot</url>
+    </snapshotRepository>
            
     
   </distributionManagement>
